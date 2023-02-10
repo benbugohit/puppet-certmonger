@@ -1,6 +1,6 @@
 {
   "name": "saltedsignal-certmonger",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "author": "saltedsignal",
   "summary": "Certmonger puppet module",
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
   "description": "Certmonger puppet module for integration with IPA CAs",
   "tags": ["certmonger", "ipa", "ca","ipa-getcert","freeipa"],
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":">= 4.13.0 < 6.0.0"}
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.13.0 <= 6.6.0"}
   ],
   "operatingsystem_support": [
     {
